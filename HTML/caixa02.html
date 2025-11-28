@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>grouping tags</title>
+  <style>
+  body{
+    font-family: serif;
+    background-color:dimgrey;
+    margin:0px;
+  }
+  header{
+    background-color:white;
+    padding: 10px;
+    margin:10px;
+  }
+  h1{
+    box-shadow: 3px 3px 3px black;
+  }
+  nav{
+    background-color:#818274;
+    pedding:3px;
+    box-shadow:10px 10px 10px black;
+  }
+  nav > a{
+    
+    margin: 20px;
+    font-weight:bold
+    
+  }
+  main{
+    background-color: white;
+    pedding: 10px;
+    margin:10px;
+    border-radius: 20px 20px 20px 20px;
+  }
+ #assuntos > p{
+    text-align:center
+  }
+  article > h2 {
+    box-shadow: 3px 3px 3px black;
+  }
+  article{
+    background-color:lightgrey;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    text-align:center;
+    pedding: 4px;
+    margin: 0px;
+  }
+  footer > p{
+    margin:1px;
+  }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Meu Site</h1>
+    <nav>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+    </nav>
+    
+  </header>
+  
+  <main>
+    <section id="assuntos">
+      <p>Relatorio de esperiencia</p>
+    </section>
+    <section id="noticias">
+      <article>
+        <h2> Noticias sobre o Moçamvique</h2>
+        <p>
+          Este relatório apresenta uma experiência prática realizada no laboratório de electricidade, com o objectivo de compreender o funcionamento e o controlo de um circuito eléctrico composto por três lâmpadas, interruptores simples e duplos, e disjuntores de diferentes capacidades. Durante a execução, verificou-se inicialmente uma ligação incorrecta, posteriormente corrigida, tendo o circuito funcionado correctamente.
+
+        </p>
+        <aside>
+          <p>Artigo escrito por Tin Manuel</p>
+        </aside>
+      </article>
+      
+    </section>
+  </main>
+  
+  <footer>
+    <p>Dezenvolvido por programação Roieque</p>
+    
+  </footer>
+</body>
+</html>
